@@ -1,12 +1,11 @@
-import { expect, test } from "vitest"
-import { AnswerQuestionUseCase } from "./answer-question"
-import type { AnswersRepository } from "../repositories/answers-repository"
-import { Answer } from "../entities/answer"
+import { expect, test } from 'vitest'
+import { AnswerQuestionUseCase } from '@/domain/use-case/answer-question'
+import type { AnswersRepository } from '@/domain/repositories/answers-repository'
+import { Answer } from '@/domain/entities/answer'
 
 const fakeAnswersRepository: AnswersRepository = {
-  create: async (answer: Answer) => {
-    return;
-  }
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  create: async (answer: Answer) => {},
 }
 
 test('create an answer', async () => {
