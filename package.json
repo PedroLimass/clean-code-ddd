@@ -4,7 +4,6 @@
   "description": "Design dirigido à domínio",
   "main": "index.js",
   "scripts": {
-    "test:watch": "vitest",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "test": "vitest run",
