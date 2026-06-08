@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/PedroLimass/clean-code-ddd#readme",
   "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^25.9.1",
     "eslint": "^8.57.1",
